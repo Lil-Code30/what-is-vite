@@ -18,6 +18,8 @@ document.querySelector('#app').innerHTML = `
     <p class="read-the-docs">
       Click on the Vite logo to learn more
     </p>
+    <img src="${import.meta.env.VITE_APP_IMAGE}" alt="image test" />
+    <h1>${import.meta.env.VITE_APP_TITLE}</h1>
   </div>
 `
 
